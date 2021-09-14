@@ -13,7 +13,7 @@ public class ListagemCategoria {
 	}
 	
 	public void exibirItensDaListaCategoria () {
-		System.out.println("****Categorias****");
+		System.out.println("==== Categorias ====");
 		int contador=1;
 		for (Categoria categoria : categorias) {
 			System.out.println(contador+" - "+categoria.getNomeCategoria());

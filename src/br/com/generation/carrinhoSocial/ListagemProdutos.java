@@ -13,7 +13,7 @@ public class ListagemProdutos {
 	}
 	
 	public void exibirItensDaListaProduto () {
-		System.out.println("****Produtos****");
+		System.out.println("==== Produtos ====");
 		int contador=1;
 		for (Produto produto : produtos) {
 			System.out.println(contador+" - "+produto.getNome()+" | Estoque: "+produto.getQuantidade());
